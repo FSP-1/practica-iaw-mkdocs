@@ -2,6 +2,7 @@ site_name: IAW
 
 nav:
     - Principal: index.md
+    - Practica 14: practica14.md
     - Acerca de: about.md
 
 theme:
