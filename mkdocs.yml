@@ -10,8 +10,6 @@ theme:
     primary: cyan
     scheme: slate
     language: es
-  features:
-    - navigation.tabs.sticky
   logo: img/fva.gif
   copyright: Copyright &copy; 2016 - 2020 Martin Donath
 
