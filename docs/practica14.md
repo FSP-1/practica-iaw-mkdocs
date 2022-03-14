@@ -13,13 +13,13 @@
 
 ## 1.- Infractuctura
 ### Ponemos la AMI del ubuntu vacio y con el instance type .small para que tenga almenos 2 GB de RAM
-![foto]({{ site.url }}/recursos/20-03-08/img/1.png)
+![foto](/recursos/20-03-08/img/1.png)
 
 ### Le asignamos los puertos SSH, HTTP Y HTTPS
-![foto]({{ site.url }}/recursos/20-03-08/img/2.png)
+![foto](/recursos/20-03-08/img/2.png)
 
 ### Añadimos un ddns al la ip publica de la maquina que creamos antes
-![foto]({{ site.url }}/recursos/20-03-08/img/3.png)
+![foto](/recursos/20-03-08/img/3.png)
 
 
 <div id='id2' />
@@ -50,11 +50,11 @@ mv bitnami-wordpress-5.8.3-0-linux-x64-installer.run?with_popup_skip_signin=1 /t
 /tmp/bitnami-wordpress-5.8.3-0-linux-x64-installer.run?with_popup_skip_signin=1
 ```
 ### Nuestra instalación tiene que ser parecida a estas elecciones
-![foto]({{ site.url }}/recursos/20-03-08/img/4.png)
+![foto](/recursos/20-03-08/img/4.png)
 ### Añadimos cerbot a nuestro dominio con el comando sudo /opt/wordpress-5.8.3-0/bncert-tool
-![foto]({{ site.url }}/recursos/20-03-08/img/5.png)
+![foto](/recursos/20-03-08/img/5.png)
 ### Con esto tendriamos instalado el wordpress
-![foto]({{ site.url }}/recursos/20-03-08/img/6.png)
+![foto](/recursos/20-03-08/img/6.png)
 
 <div id='id3' />
 
@@ -76,21 +76,21 @@ set -x
 # restart apache
 /opt/wordpress-5.8.3-0/ctlscript.sh restart apache
 ```
-![foto]({{ site.url }}/recursos/20-03-08/img/7.png)
+![foto](/recursos/20-03-08/img/7.png)
 ### Tambien saldra el banner de bitname al acabar de instalarlo
-![foto]({{ site.url }}/recursos/20-03-08/img/8.png)
+![foto](/recursos/20-03-08/img/8.png)
 ### Para eliminarlo, modificamos el archivo **httpp-app.conf** y ponemos un # al lado de la linea donde pone Include Banner.conf
-![foto]({{ site.url }}/recursos/20-03-08/img/9.png)
-![foto]({{ site.url }}/recursos/20-03-08/img/10.png)
+![foto](/recursos/20-03-08/img/9.png)
+![foto](/recursos/20-03-08/img/10.png)
 
 <div id='id4' />
 
 ## 4.- PhpMyadmin
 ### Para poder conectar con phpMyAdmin tendremos que realizar un túnel SSH desde nuestra máquina con la máquina remota.
-![foto]({{ site.url }}/recursos/20-03-08/img/11.png)
+![foto](/recursos/20-03-08/img/11.png)
 ### Para ver que funciona ponemos en nuestro navejador web
 >http://localhost:8888/phpmyadmin
 
-![foto]({{ site.url }}/recursos/20-03-08/img/12.png)
+![foto](/recursos/20-03-08/img/12.png)
 
 [Volver hacia arriba](#id6)
